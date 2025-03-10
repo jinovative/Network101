@@ -58,7 +58,7 @@ SMTP는 **메시지 헤더(Header)와 본문(Body)**으로 구성된다.
 
 #### **SMTP 메시지 예시**
 
-```
+```http
 MAIL FROM: <alice@example.com> 
 RCPT TO: <bob@example.com> 
 DATA Subject: Hello Bob Hi Bob, how are you? 
